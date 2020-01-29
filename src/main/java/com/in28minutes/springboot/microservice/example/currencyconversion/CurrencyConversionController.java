@@ -19,7 +19,7 @@ public class CurrencyConversionController {
 	private Logger logger = LoggerFactory.getLogger(this.getClass());
 
 	@Autowired
-	private CurrencyExchangeServiceProxy proxy;
+	private CurrencyExchangeServiceProxy proxy = new CurrencyExchangeServiceProxy();
 
 	@GetMapping("/currency-converter/from/{from}/to/{to}/quantity/{quantity}")
 	public CurrencyConversionBean convertCurrency(@PathVariable String from, @PathVariable String to,
