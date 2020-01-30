@@ -80,21 +80,21 @@
 
 	<repositories>
 		<repository>
-     		 	<id>spring-snapshots</id>
+			<id>spring-snapshots</id>
 			<name>Spring Snapshots</name>
-      			<url>http://nexus-cicd.stgcloud.bancogalicia.com.ar/repository/maven-snapshots</url>
+			<url>http://nexus-cicd.stgcloud.bancogalicia.com.ar/repository/maven-snapshots/</url>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
-    		</repository>
+		</repository>
 		<repository>
-     		 	<id>spring-milestones</id>
+			<id>spring-milestones</id>
 			<name>Spring Milestones</name>
-      			<url>http://nexus-cicd.stgcloud.bancogalicia.com.ar/repository/maven-central</url>
+			<url>http://nexus-cicd.stgcloud.bancogalicia.com.ar/repository/maven-central/</url>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
-    		</repository>		
+		</repository>
 	</repositories>
 
 	<pluginRepositories>
