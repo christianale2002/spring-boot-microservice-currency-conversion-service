@@ -8,7 +8,7 @@
         <mirror>
             <id>nexus</id>
             <mirrorOf>*</mirrorOf>
-            <url>${env.NEXUS}repository/maven-public</url>
+            <url>http://nexus-cicd.stgcloud.bancogalicia.com.ar/repository/maven-public</url>
         </mirror>
     </mirrors>
     <servers>
