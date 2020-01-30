@@ -101,7 +101,7 @@
 		<pluginRepository>
 			<id>spring-snapshots</id>
 			<name>Spring Snapshots</name>
-			<url>http://nexus-cicd.stgcloud.bancogalicia.com.ar/snapshot</url>
+			<url>${env.NEXUS}snapshot</url>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
@@ -109,7 +109,7 @@
 		<pluginRepository>
 			<id>spring-milestones</id>
 			<name>Spring Milestones</name>
-			<url>http://nexus-cicd.stgcloud.bancogalicia.com.ar/milestone</url>
+			<url>${env.NEXUS}milestone</url>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
