@@ -82,7 +82,7 @@
 		<repository>
      		 	<id>spring-snapshots</id>
 			<name>Spring Snapshots</name>
-      			<url>http://nexus-cicd.stgcloud.bancogalicia.com.ar/repository/maven-snapshot</url>
+      			<url>http://nexus-cicd.stgcloud.bancogalicia.com.ar/repository/maven-snapshots</url>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
