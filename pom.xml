@@ -82,7 +82,7 @@
 		<repository>
      		 	<id>spring-snapshots</id>
 			<name>Spring Snapshots</name>
-      			<url>${env.NEXUS}repository/maven-public</url>
+      			<url>http://nexus-cicd.stgcloud.bancogalicia.com.ar/repository/maven-public</url>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
@@ -90,7 +90,7 @@
 		<repository>
      		 	<id>spring-milestones</id>
 			<name>Spring Milestones</name>
-      			<url>${env.NEXUS}repository/maven-public</url>
+      			<url>http://nexus-cicd.stgcloud.bancogalicia.com.ar/repository/maven-public</url>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
@@ -101,7 +101,7 @@
 		<pluginRepository>
 			<id>spring-snapshots</id>
 			<name>Spring Snapshots</name>
-			<url>${env.NEXUS}snapshot</url>
+			<url>http://nexus-cicd.stgcloud.bancogalicia.com.ar/snapshot</url>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
@@ -109,7 +109,7 @@
 		<pluginRepository>
 			<id>spring-milestones</id>
 			<name>Spring Milestones</name>
-			<url>${env.NEXUS}milestone</url>
+			<url>http://nexus-cicd.stgcloud.bancogalicia.com.ar/milestone</url>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
